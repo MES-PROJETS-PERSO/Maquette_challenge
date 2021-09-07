@@ -1,0 +1,276 @@
+/********************************************************************************/
+
+/********************************************************************************/
+.extra{
+    height:auto;
+    width: 100%; 
+    padding-top:30px;
+    /* background: #14134F; */ 
+    } 
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 750px;
+    width: 90%;
+    background-color:  #FFFFFF;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 15px rgb(46, 45, 46) ;
+    font-family: Georgia, 'Times New Roman', Times, serif}
+
+/********************************HEADER******************************************/
+.header{ 
+    display: flex; 
+    justify-content: space-between;
+    height: 80px; 
+    padding: 0px 30px;
+    box-shadow: 1px 1px 10px grey;}
+/*************************************/
+.logo{ 
+    display: flex; 
+    flex-direction: row; 
+    color: black;   
+    width: 200px; 
+    margin-left: 30px;
+    padding:10px 0px 0px 10px; 
+    justify-content: space-between;}
+
+.search_area{ 
+    width: 190px; 
+    padding-left: 20px; 
+    padding-top: 20px;
+    height: 40px;
+    display: flex; 
+    flex-direction: row;
+    background-color: rgb(217, 220, 223); 
+    border-radius: 40px; 
+    margin: auto;}
+     
+.search_area:hover{
+    border: 1px solid rgb(63, 55, 55);
+    background-color: rgb(217, 220, 223);}
+
+.search{
+    border: none; 
+    background-color: rgb(217, 220, 223); 
+    margin-top: -10px;
+    margin-left: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 140px}
+    
+.search:hover{ 
+    background-color: rgb(217, 220, 223);}
+
+.contacts-links{ 
+    width: 150px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    justify-content: space-between;
+    text-align: center;}
+.play{
+    height: 50px; 
+    width: 50px; 
+    border-radius: 50px; 
+    background-color: rgb(217, 220, 223);
+    display: flex; 
+    justify-content: center; 
+    align-items: center;}
+
+.apple{
+    height: 50px; 
+    width: 50px; 
+    border-radius: 50px; 
+    background-color: rgb(217, 220, 223);
+    display: flex; 
+    justify-content: center; 
+    align-items: center;}
+
+.contact_btn{
+    cursor: pointer; 
+    width: 150px; 
+    margin-left: 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;}
+
+.btn{background: red; 
+    cursor: pointer;
+    padding: 18px; 
+    color: white; 
+    font-weight: bold; 
+    font-size: 17px; 
+    border: 1px solid #fdfcfd; 
+    text-align: center; 
+    border-radius: 10px;}
+
+
+button:hover{
+    background-color: blue;}
+
+/********************************HEADER******************************************/
+
+/*******************************SIDEBAR******************************/
+.sidebar{
+    background: rgb(217, 220, 223);
+    height: 300px;
+    width: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    
+    margin-top: -10px;
+    border-right: 5px solid blue;}
+
+    .sidebar:hover .space{
+        opacity: 1;
+    }
+
+    .space:hover{
+        background-color: blue; 
+        border-radius: 0px 20px 0px 20px;
+        color: #EDF2FE; 
+        font-weight: bold;}
+    .Contacts:hover{border-radius: 20px 0px 20px 0px; 
+        color: #EDF2FE; 
+        font-weight: bold;}
+    .sidebar:hover{border-right: 4px solid blue;width: 150px;
+        border-radius: 0px 25px 25px 0px;
+         transition: ease .3s ;}
+
+    .space{
+        opacity:0 ;
+        height: 40px;
+        padding: 10px;
+        border-bottom: 1px solid rgb(255, 255, 255);}
+/*******************************SIDEBAR******************************/
+
+/********************************************BODY************************************************/
+.center{
+    margin-top: 10px;
+    background-color: rgb(255, 254, 254); 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;}
+
+.happy{
+    margin-left: 30px;
+    margin-top: -40px;
+    background-color: white;
+    height: 100%;
+    width: 50%;}
+
+.happy_btn {cursor: pointer;background: red; padding: 10px; color: white; 
+    font-weight: bold; border: none; border-radius: 5px;
+    width: 150px; height: 40px;  text-align: center;}
+
+    .happy span {color: #4405f3; font-weight: bold;}
+    .happy h1 {color: #0301a0; font-size: 3em; font-weight: bold;}
+    
+.plus{
+    margin-top: -40px;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;}
+
+   .cross{
+       position: relative;
+       bottom: 30%;
+       font-weight: bold;
+       padding-top: 40px;
+       font-size: 1.2em;
+       width: 120px;
+       word-spacing: 5px;}
+
+    
+
+    .ebook{
+        color: rgb(31, 4, 94);
+        justify-content: space-between;
+        margin-left: 60px;
+        position: relative;
+        display: flex;
+        width: 110px;} 
+        .ebook h2{text-decoration:underline salmon;}
+
+
+     .lifetime{
+        color: rgb(31, 4, 94); 
+        left: 42%;
+        width: 110px;
+        justify-content: space-between;
+        position: relative;
+        display: flex}
+        .lifetime h2{text-decoration:underline rgb(51, 3, 129);}
+ 
+    
+    .images{
+        position: absolute;
+        bottom: 100px;
+        right:20% ;}
+/***********************************BODY************************************************/
+
+    
+/**********************************FOOTER*******************************************/
+.footer{ 
+    height: 130px;
+    width: 90%;
+    margin: 0 auto ;
+    background: #3b03d3;
+    color: rgb(194, 196, 194);
+    padding: 40px;} 
+    
+   .insider{
+        height: 100px; 
+        text-align: center; 
+        display: flex; 
+        flex-direction: column; }
+    
+   .godown{margin-top: -20px;}
+/**********************************FOOTER*******************************************/
+
+
+
+/**********************************HOVER*******************************************/
+.apple:hover{animation: chargeur 2s alternate infinite}
+.logo img:hover{animation: chargeur 2s alternate infinite}
+.play:hover{animation: chargeur 2s alternate infinite}
+/**********************************HOVER*******************************************/
+
+
+
+
+/******************************ANIMATION*************************/
+@keyframes chargeur{
+
+    0% {transform: rotate(0deg) scale(1)}
+    
+    100%{transform: rotate(720deg) scale(1.2)}}
+
+
+@keyframes swing{
+
+        0% {transform: rotate(0deg) scale(1); top:5%;right: 40%;}
+        10% {transform: rotate(0deg) scale(1); top: 20%; right: 10%;}
+        20% {transform: rotate(0deg) scale(1); right: 20%; top: 10%;}
+        40% {transform: rotate(0deg) scale(1); top: 30%; right: 10;}
+        60% {transform: rotate(0deg) scale(1); right: 40%; top: 10%;}
+        80% {transform: rotate(0deg) scale(1); right: 30%; bottom: 12%;}
+        90% {transform: rotate(0deg) scale(1);right: 10%;}
+        100%{transform: rotate(0deg) scale(1); top: 20%;}}
+    
+/******************************ANIMATION*************************/
+
+
+.bulle{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background-color: blue;
+    animation: swing 10s alternate-reverse infinite}
